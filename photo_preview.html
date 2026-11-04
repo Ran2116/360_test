@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview | Photo with OCR Results</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- converts iPhone HEIC/HEIF photos to JPEG inside the browser (Chrome can't show HEIC) -->
+    <script src="https://cdn.jsdelivr.net/npm/heic-to@1.6.7/dist/iife/heic-to.js"></script>
+    <style>
+      /* stage shrinks to the photo's size, so % boxes line up with the photo */
+      #stage { position: relative; display: inline-block; line-height: 0; }
+      #stage img { display: block; max-width: calc(100vw - 28rem); max-height: 100vh; }
+      .ocr-box { position: absolute; border: 2px solid #ffff00; }
+      .ocr-box span {
+        position: absolute; bottom: 100%; left: -2px; white-space: nowrap;
+        background: rgba(0, 0, 0, 0.6); color: #fff;
+        font: bold 12px Arial, sans-serif; padding: 1px 5px;
+        transform-origin: bottom left;
+      }
+      .ocr-box:hover { border-color: #ff0000; z-index: 10; }
+      .ocr-box:hover span { transform: scale(2); }
+    </style>
+  </head>
+  <body
+    class="m-0 overflow-hidden font-mono flex flex-row h-screen text-white bg-gray-900"
+  >
+    <div id="container" class="flex flex-row w-full">
+      <div id="info-container" class="flex flex-col m-8 w-96 flex-shrink-0">
+        <h1 class="text-xl font-bold mb-2 mx-auto">
+          Preview Photo with OCR Results
+        </h1>
+
+        <div
+          id="dropZone"
+          class="relative w-full h-full border-2 border-dashed border-white flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-50 text-xs z-10 hover:bg-opacity-70"
+        >
+          <div class="absolute top-0 mt-4">
+            <p>Photo (JPG/PNG/HEIC)</p>
+            <p>OCR Results (JSON)</p>
+          </div>
+
+          <p class="mt-2 text-sm">Drag & Drop</p>
+
+          <p class="mt-2 text-sm">or</p>
+          <input type="file" id="fileInput" class="hidden" multiple />
+          <label
+            for="fileInput"
+            id="fileInputLabel"
+            class="bg-black bg-opacity-70 text-white p-2 rounded cursor-pointer mt-2"
+            >Open Files</label
+          >
+          <p id="status" class="absolute bottom-0 mb-4 text-yellow-300"></p>
+        </div>
+      </div>
+      <div class="flex-1 flex items-center justify-center bg-black">
+        <div id="stage"></div>
+      </div>
+    </div>
+    <script>
+      let photoUrl = null;
+      let ocrResults = null;
+
+      function setStatus(t) {
+        document.getElementById('status').textContent = t;
+      }
+
+      function render() {
+        const stage = document.getElementById('stage');
+        stage.innerHTML = '';
+        if (!photoUrl) return;
+
+        const img = new Image();
+        img.src = photoUrl;
+        stage.appendChild(img);
+
+        (ocrResults || []).forEach((r) => {
+          const box = document.createElement('div');
+          box.className = 'ocr-box';
+          // x, y, width, height are 0-1 fractions of the photo
+          Object.assign(box.style, {
+            left: r.x * 100 + '%',
+            top: r.y * 100 + '%',
+            width: r.width * 100 + '%',
+            height: r.height * 100 + '%',
+          });
+          const label = document.createElement('span');
+          label.textContent = `${r.text} (${(r.confidence * 100).toFixed(0)}%)`;
+          box.appendChild(label);
+          stage.appendChild(box);
+        });
+      }
+
+      const dropZone = document.getElementById('dropZone');
+      const fileInput = document.getElementById('fileInput');
+
+      dropZone.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        e.dataTransfer.dropEffect = 'copy';
+      });
+
+      dropZone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handleFiles(e.dataTransfer.files);
+      });
+
+      fileInput.addEventListener('change', (e) => {
+        handleFiles(e.target.files);
+      });
+
+      function handleFiles(files) {
+        for (let i = 0; i < files.length; i++) {
+          const file = files[i];
+          const name = file.name.toLowerCase();
+          if (name.endsWith('.json')) {
+            handleJSONDrop(file);
+          } else if (name.endsWith('.heic') || name.endsWith('.heif')) {
+            handleHeicDrop(file);
+          } else if (file.type.startsWith('image/')) {
+            handleImageDrop(file);
+          }
+        }
+      }
+
+      function handleImageDrop(file) {
+        photoUrl = URL.createObjectURL(file);
+        render();
+      }
+
+      async function handleHeicDrop(file) {
+        setStatus('Converting HEIC…');
+        try {
+          const jpg = await HeicTo({ blob: file, type: 'image/jpeg', quality: 0.9 });
+          photoUrl = URL.createObjectURL(jpg);
+          setStatus('');
+          render();
+        } catch (err) {
+          setStatus('Could not open this HEIC. Try exporting it as JPG.');
+          console.error(err);
+        }
+      }
+
+      function handleJSONDrop(file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const data = JSON.parse(e.target.result);
+          ocrResults = Array.isArray(data) ? data : data.results || [];
+          render();
+        };
+        reader.readAsText(file);
+      }
+    </script>
+  </body>
+</html>
