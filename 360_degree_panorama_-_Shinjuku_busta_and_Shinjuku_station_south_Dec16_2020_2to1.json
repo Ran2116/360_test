@@ -1,0 +1,541 @@
+{
+  "image_path": "panos/360_degree_panorama_-_Shinjuku_busta_and_Shinjuku_station_south_Dec16_2020_2to1.jpg",
+  "perspective_preset": null,
+  "perspective_presets": [
+    "zoomed_in",
+    "default"
+  ],
+  "results": [
+    {
+      "text": "L-Breath",
+      "confidence": 1.0,
+      "yaw": -175.99759578671407,
+      "pitch": 2.979464885984399,
+      "width": 2.8728355592753303,
+      "height": 1.0278743689741865,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "CiC",
+      "confidence": 0.5,
+      "yaw": -175.82380287022855,
+      "pitch": -2.5069769881070423,
+      "width": 0.6589747576131231,
+      "height": 1.3379802689504898,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Victoria",
+      "confidence": 1.0,
+      "yaw": -170.63495445870865,
+      "pitch": 2.6676361694222,
+      "width": 5.6438753314651535,
+      "height": 2.097036425557419,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Victoria",
+      "confidence": 1.0,
+      "yaw": -162.3943523923969,
+      "pitch": 1.70772087440756,
+      "width": 2.580934016431513,
+      "height": 1.0680131453925399,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Golf",
+      "confidence": 1.0,
+      "yaw": -162.41487704470484,
+      "pitch": 0.9325092161208431,
+      "width": 2.565805758790219,
+      "height": 1.3612397579933841,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "TS",
+      "confidence": 1.0,
+      "yaw": -164.55227122740433,
+      "pitch": -3.028771835641393,
+      "width": 1.2043823441464951,
+      "height": 0.6563563221914714,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "7Q~L",
+      "confidence": 0.30000001192092896,
+      "yaw": -165.72552694139202,
+      "pitch": -6.528984135333593,
+      "width": 1.1542304469692795,
+      "height": 0.40180639020552267,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "SIM",
+      "confidence": 1.0,
+      "yaw": -165.65893861050992,
+      "pitch": -7.098347242193412,
+      "width": 0.7546099322720181,
+      "height": 0.4865121061238966,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "CHRISTMAS",
+      "confidence": 1.0,
+      "yaw": -131.66564124059457,
+      "pitch": -5.284405592264325,
+      "width": 3.048579464526256,
+      "height": 0.6265641212223079,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "(00D A GIFT Pre-Ord\u0161",
+      "confidence": 1.0,
+      "yaw": -131.7086101338716,
+      "pitch": -5.81340169449319,
+      "width": 2.783162140485473,
+      "height": 0.5506007252644727,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "6),750- (64",
+      "confidence": 0.5,
+      "yaw": -127.51910755780715,
+      "pitch": -7.461329683300859,
+      "width": 1.0503145469816104,
+      "height": 0.27811950598463575,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NEWoMan",
+      "confidence": 1.0,
+      "yaw": -125.96015502551406,
+      "pitch": 8.644429992870622,
+      "width": 16.64647453034661,
+      "height": 5.204630017083865,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Our Fessite ENGLITRA:",
+      "confidence": 0.5,
+      "yaw": -131.75573285612305,
+      "pitch": -4.791125160145868,
+      "width": 2.8598303762754256,
+      "height": 0.7351586224505944,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "12,9 - 28 m",
+      "confidence": 0.5,
+      "yaw": -131.6463953192111,
+      "pitch": -6.145468710906141,
+      "width": 1.8950836477000337,
+      "height": 0.4026775705327976,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NEWOMan",
+      "confidence": 1.0,
+      "yaw": -89.62162790378484,
+      "pitch": -6.540799956480324,
+      "width": 11.168436648998409,
+      "height": 2.0621082296103355,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "300\u00b0 DEGREE",
+      "confidence": 1.0,
+      "yaw": -69.02681818951574,
+      "pitch": -10.233255712984802,
+      "width": 3.024996692433163,
+      "height": 0.8374826265602664,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "\u2022 DEGREES PIZZERIA",
+      "confidence": 1.0,
+      "yaw": -75.98329655205187,
+      "pitch": -10.177914139602844,
+      "width": 5.595957845424564,
+      "height": 0.9977574601271737,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "ERIA",
+      "confidence": 1.0,
+      "yaw": -63.876767259817846,
+      "pitch": -10.3298341146719,
+      "width": 1.2248222104436906,
+      "height": 0.7646619953706804,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "TER Shinjuku Station",
+      "confidence": 1.0,
+      "yaw": -51.42833757458019,
+      "pitch": -8.066844430460943,
+      "width": 9.866285699002638,
+      "height": 2.1003898877875633,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "LUMINE 2",
+      "confidence": 1.0,
+      "yaw": 46.35658207023081,
+      "pitch": -5.313106613008731,
+      "width": 3.812130161270858,
+      "height": 1.2128016826855816,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "ARLAGE E",
+      "confidence": 1.0,
+      "yaw": 59.76072175164055,
+      "pitch": -4.296358687069233,
+      "width": 1.895385046290322,
+      "height": 0.5257429989852387,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "MARI",
+      "confidence": 1.0,
+      "yaw": 64.36455101276343,
+      "pitch": -4.149018775262291,
+      "width": 1.287132086230777,
+      "height": 0.40303679798823167,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "LUMINE 2",
+      "confidence": 1.0,
+      "yaw": 95.72474726572497,
+      "pitch": -4.262842831378784,
+      "width": 5.053514149777982,
+      "height": 1.1188905680787093,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "lu\u00e8!",
+      "confidence": 0.30000001192092896,
+      "yaw": 153.77465231196712,
+      "pitch": -1.1253113791498701,
+      "width": 0.9625987701802785,
+      "height": 0.48778049482438657,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "F682",
+      "confidence": 0.30000001192092896,
+      "yaw": 152.91905678423745,
+      "pitch": -5.382668538190319,
+      "width": 1.595881769289889,
+      "height": 0.8317161463671328,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "DEX",
+      "confidence": 0.5,
+      "yaw": 153.8543777509318,
+      "pitch": -2.0650452617819193,
+      "width": 0.975432737939002,
+      "height": 0.40156196285857715,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "TAKASHINAY",
+      "confidence": 1.0,
+      "yaw": 159.14674582233346,
+      "pitch": -4.618027610592925,
+      "width": 2.0459614589512114,
+      "height": 0.3583582146293267,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "IVES SCATARE",
+      "confidence": 0.5,
+      "yaw": 159.23570605580417,
+      "pitch": -5.125854971862314,
+      "width": 2.312545985091674,
+      "height": 0.579975642903741,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NITORI",
+      "confidence": 1.0,
+      "yaw": 159.30242076137895,
+      "pitch": -6.842057580040382,
+      "width": 1.8233158615948355,
+      "height": 0.4892413543502965,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "TAKASHIMAYA",
+      "confidence": 0.5,
+      "yaw": 159.28830499348174,
+      "pitch": -4.6189835624553615,
+      "width": 2.1843899996861182,
+      "height": 0.5627564277027153,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "\u00a1UNES SAURE",
+      "confidence": 0.5,
+      "yaw": 159.3218176983021,
+      "pitch": -5.158607786007628,
+      "width": 2.3825820424669075,
+      "height": 0.8746142228638076,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NITORI",
+      "confidence": 0.5,
+      "yaw": 159.31906847865085,
+      "pitch": -6.873128691537905,
+      "width": 1.7511040520739414,
+      "height": 0.5874288049845928,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Victoria",
+      "confidence": 1.0,
+      "yaw": -170.5914974165608,
+      "pitch": 2.685608075099376,
+      "width": 5.665792481708934,
+      "height": 2.0678122375996884,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Victoria",
+      "confidence": 1.0,
+      "yaw": -162.40669326621466,
+      "pitch": 1.6515195227581543,
+      "width": 2.61901170212775,
+      "height": 1.1937600548912515,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "70-L",
+      "confidence": 0.5,
+      "yaw": -165.6813414910779,
+      "pitch": -6.51081001726824,
+      "width": 1.208905881662531,
+      "height": 0.4912873523064061,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "SIM",
+      "confidence": 1.0,
+      "yaw": -165.6798619468027,
+      "pitch": -7.082878858802879,
+      "width": 0.6476920247725957,
+      "height": 0.3493768190815594,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "L-Breath",
+      "confidence": 1.0,
+      "yaw": -176.00631639407098,
+      "pitch": 2.9555154537428954,
+      "width": 2.9409456931259967,
+      "height": 1.0555857903113286,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Golf",
+      "confidence": 1.0,
+      "yaw": -162.4233120741974,
+      "pitch": 0.9067085467960834,
+      "width": 2.566083714515287,
+      "height": 1.3573820833423964,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "L-Breath",
+      "confidence": 1.0,
+      "yaw": -176.4113881552669,
+      "pitch": -12.985258857032651,
+      "width": 1.9381547323588677,
+      "height": 0.6244461075244647,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NEWoMan",
+      "confidence": 1.0,
+      "yaw": -125.82168487143761,
+      "pitch": 8.60435119494509,
+      "width": 17.07709939010296,
+      "height": 6.254976878784562,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NXY kh TE",
+      "confidence": 0.30000001192092896,
+      "yaw": -117.95952399764938,
+      "pitch": 5.17096556418481,
+      "width": 7.751348186191564,
+      "height": 2.724056903128003,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "CHRISTMAS",
+      "confidence": 1.0,
+      "yaw": -131.7250022442212,
+      "pitch": -5.3453174804815635,
+      "width": 3.02862209465178,
+      "height": 0.8749898050730227,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NEWOMan",
+      "confidence": 1.0,
+      "yaw": -89.62019591807196,
+      "pitch": -6.5690049426419455,
+      "width": 11.09577811344468,
+      "height": 1.8806134158959917,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "THE MIN*",
+      "confidence": 0.30000001192092896,
+      "yaw": -86.41717773896627,
+      "pitch": -9.923690781183135,
+      "width": 4.944873253111879,
+      "height": 0.6641625531705024,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "DEGREES PIZZERIA",
+      "confidence": 1.0,
+      "yaw": -75.77710036722091,
+      "pitch": -10.159155422582744,
+      "width": 5.397792260983735,
+      "height": 1.0197849718666863,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "300\u00b0 DEGREE:",
+      "confidence": 1.0,
+      "yaw": -69.04299715995923,
+      "pitch": -10.22604130239251,
+      "width": 3.068506669849768,
+      "height": 1.0259344256958105,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Pf taER",
+      "confidence": 0.30000001192092896,
+      "yaw": -55.640325980079,
+      "pitch": -7.6498867397689745,
+      "width": 3.707483624745258,
+      "height": 1.7210947759659447,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "Shinjuku Station",
+      "confidence": 1.0,
+      "yaw": -49.8824969269713,
+      "pitch": -8.293725079939655,
+      "width": 6.631284735954473,
+      "height": 1.2899174942995861,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "mYLORE",
+      "confidence": 1.0,
+      "yaw": 8.022540860846714,
+      "pitch": 10.207872343281965,
+      "width": 9.681408478623705,
+      "height": 3.4811896992127362,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "POPAYS",
+      "confidence": 0.5,
+      "yaw": 29.569906905500524,
+      "pitch": -11.252616590966518,
+      "width": 8.2755679185695,
+      "height": 5.774887500451431,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "SUPEICM",
+      "confidence": 0.30000001192092896,
+      "yaw": 39.00398518002766,
+      "pitch": -11.206962301380528,
+      "width": 12.679526639060185,
+      "height": 8.042754669112183,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "UMINE",
+      "confidence": 1.0,
+      "yaw": 31.394560993970103,
+      "pitch": -6.741216252393072,
+      "width": 1.564066510084654,
+      "height": 0.5731134925802968,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "LUMINE 2",
+      "confidence": 1.0,
+      "yaw": 46.41436559974009,
+      "pitch": -5.300369864627351,
+      "width": 3.7026371513246374,
+      "height": 0.9287009325102327,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "MARINGE FAE",
+      "confidence": 1.0,
+      "yaw": 70.9797293179736,
+      "pitch": -3.9581659935896703,
+      "width": 3.0923873465841893,
+      "height": 0.502142455420997,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "LUMINE 2",
+      "confidence": 1.0,
+      "yaw": 95.80839739450458,
+      "pitch": -4.336177618722491,
+      "width": 5.162426455572316,
+      "height": 1.264805052922878,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "ENTE",
+      "confidence": 0.5,
+      "yaw": 115.77347641281209,
+      "pitch": -5.561569009409314,
+      "width": 1.4439983612163445,
+      "height": 0.6902124836089429,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "TAKASHIMAYA",
+      "confidence": 1.0,
+      "yaw": 159.29316405821697,
+      "pitch": -4.610116949936398,
+      "width": 2.205258825957145,
+      "height": 0.41651855133667226,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "\u00a1INES SALARE",
+      "confidence": 1.0,
+      "yaw": 159.2949578592498,
+      "pitch": -5.171628667345477,
+      "width": 2.3592897919606344,
+      "height": 0.6671994842618201,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    },
+    {
+      "text": "NITORI",
+      "confidence": 1.0,
+      "yaw": 159.32762481827206,
+      "pitch": -6.86252258689374,
+      "width": 1.8606824084910158,
+      "height": 0.5507337046138732,
+      "engine": "APPLE_VISION_FRAMEWORK"
+    }
+  ]
+}
